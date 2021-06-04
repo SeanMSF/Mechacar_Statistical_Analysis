@@ -46,5 +46,8 @@ sample estimates:
 mean of x 
   1498.78
 
-
+## Study Design: MechaCar vs Competition.
+In order to try and quantify how the MechaCar performs against the competition we need to look past mpg and consider cost, horse power, or perceived safety, among other things, like aesthetics. Similar to the design of this study I would use multiple linear regression to look at the best selling car and then work backwards using consumer surveys of the aforementioned variables. I would use consumer ratings as my independent variables and determine to what extent they impact the best sold cars. I would then focus on those criteria in order to optimize design of my vehicle. Understanding waht optimizes mpg may not get us any sales. 
+The null hypothesis would be that the variables I mentioned: cost, H-power, perceived safety, aesthetics have no effect on why the most popular car is purchased. 
+We must keep in mind that this test could only be performed if the most popular car was known, as well as the survey data of significant sample size on the metrics in question. 
 
