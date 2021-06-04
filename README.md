@@ -1,6 +1,6 @@
 # Mechacar_Statistical_Analysis
 
-We can reject null in this case, p-value 5.35e-11. independent variables affect mpg, R-squared suggests these variables impact 68% of mpg effects.
+We can reject null in this case, p-value 5.35e-11; independent variables affect mpg and the R-squared suggests these variables impact 68% of mpg effects.
 
 lm(formula = mecha_car$mpg ~ mecha_car$AWD + mecha_car$ground_clearance + 
     mecha_car$spoiler_angle + mecha_car$vehicle_length + mecha_car$vehicle_weight, 
@@ -24,22 +24,21 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
-![image](https://user-images.githubusercontent.com/76413899/120743944-8d19ad80-c4bf-11eb-9cbb-cdcc9fd87abb.png)
 
 Summary stats on 
-1
+#1
 Lot1
 1500.00
 1500.0
 0.9795918
 0.9897433
-2
+#2
 Lot2
 1500.20
 1500.0
 7.4693878
 2.7330181
-3
+#3
 Lot3
 1496.14
 1498.5
@@ -47,7 +46,7 @@ Lot3
 13.0493725
 
 
-The T-test on Suspension coils was insignificant. 
+The T-test on Suspension coils was insignificant with p=.06
 # T-Tests on Suspension Coils
 > t.test(
 +     suspension_coil_data$PSI,
@@ -65,6 +64,6 @@ alternative hypothesis: true mean is not equal to 1500
 sample estimates:
 mean of x 
   1498.78
-![image](https://user-images.githubusercontent.com/76413899/120743899-7d9a6480-c4bf-11eb-90f7-597daa860b76.png)
+
 
 
