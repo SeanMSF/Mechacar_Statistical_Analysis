@@ -25,9 +25,10 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 Summary stats of suspension coils:
 
-<img width="482" alt="Screen Shot 2021-06-03 at 11 24 01 PM" src="https://user-images.githubusercontent.com/76413899/120745493-e20af300-c4c2-11eb-871f-b84f32962ae2.png">
+<img width="349" alt="Screen Shot 2021-06-03 at 11 26 47 PM" src="https://user-images.githubusercontent.com/76413899/120745652-36ae6e00-c4c3-11eb-867b-600eca25b27c.png">
 
-<img width="329" alt="Screen Shot 2021-06-03 at 11 23 42 PM" src="https://user-images.githubusercontent.com/76413899/120745502-e6cfa700-c4c2-11eb-832f-a93512aeb5b8.png">
+<img width="517" alt="Screen Shot 2021-06-03 at 11 26 21 PM" src="https://user-images.githubusercontent.com/76413899/120745674-429a3000-c4c3-11eb-8bb9-67409d22f520.png">
+
 
 # The T-test on Suspension coils was insignificant with p=.06
 t.test
