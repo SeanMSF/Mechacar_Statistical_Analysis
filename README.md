@@ -23,12 +23,13 @@ Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
-Summary stats of suspension coils:
+##Summary stats of suspension coils:
 
 <img width="349" alt="Screen Shot 2021-06-03 at 11 26 47 PM" src="https://user-images.githubusercontent.com/76413899/120745652-36ae6e00-c4c3-11eb-867b-600eca25b27c.png">
 
 <img width="517" alt="Screen Shot 2021-06-03 at 11 26 21 PM" src="https://user-images.githubusercontent.com/76413899/120745674-429a3000-c4c3-11eb-8bb9-67409d22f520.png">
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lot 3 does not meet this criteria with a variance of 170.28, significant variability in this lot of products is sure to create problems. 
 
 # The T-test on Suspension coils was insignificant with p=.06
 t.test
