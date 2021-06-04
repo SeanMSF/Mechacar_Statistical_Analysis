@@ -46,7 +46,7 @@ Lot3
 13.0493725
 
 # The T-test on Suspension coils was insignificant with p=.06
-> t.test(
+t.test
 suspension_coil_data$PSI,
 subset = suspension_coil_data$Manufacturing_Lot,
 mu = 1500
