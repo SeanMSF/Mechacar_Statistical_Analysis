@@ -23,8 +23,10 @@ Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
-Summary stats on suspension coils:
+Summary stats of suspension coils:
+
 <img width="482" alt="Screen Shot 2021-06-03 at 11 24 01 PM" src="https://user-images.githubusercontent.com/76413899/120745493-e20af300-c4c2-11eb-871f-b84f32962ae2.png">
+
 <img width="329" alt="Screen Shot 2021-06-03 at 11 23 42 PM" src="https://user-images.githubusercontent.com/76413899/120745502-e6cfa700-c4c2-11eb-832f-a93512aeb5b8.png">
 
 # The T-test on Suspension coils was insignificant with p=.06
