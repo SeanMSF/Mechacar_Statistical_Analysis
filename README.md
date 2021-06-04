@@ -18,8 +18,6 @@ mecha_car$ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08 ***
 mecha_car$spoiler_angle     6.877e-02  6.653e-02   1.034   0.3069    
 mecha_car$vehicle_length    6.267e+00  6.553e-01   9.563 2.60e-12 ***
 mecha_car$vehicle_weight    1.245e-03  6.890e-04   1.807   0.0776 .  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 8.774 on 44 degrees of freedom
 Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
