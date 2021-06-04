@@ -46,16 +46,12 @@ Lot3
 13.0493725
 
 
-The T-test on Suspension coils was insignificant with p=.06
-# T-Tests on Suspension Coils
+#The T-test on Suspension coils was insignificant with p=.06
 > t.test(
-+     suspension_coil_data$PSI,
-+     subset = suspension_coil_data$Manufacturing_Lot,
-+     mu = 1500
-+ )
-
-	One Sample t-test
-
+suspension_coil_data$PSI,
+subset = suspension_coil_data$Manufacturing_Lot,
+mu = 1500
+One Sample t-test
 data:  suspension_coil_data$PSI
 t = -1.8931, df = 149, p-value = 0.06028
 alternative hypothesis: true mean is not equal to 1500
